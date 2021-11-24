@@ -1,0 +1,22 @@
+<p>
+My name is {{dyname}}
+</p>
+<br>
+{{5+10}}
+<br><br>
+{{5*5}}
+<br>
+{{"Wlocome" + " " + "Rahul kataria"}}  <!--interpolation-->
+<br>
+{{dyname.length}}
+<br><br>
+{{dyname.toUpperCase()}}
+<br>
+{{myMethod()}}
+<br><br>
+My app status is {{appStatus? status1 : status2}}
+<br><br>
+<input type="text" [disabled]="true" name="" id="" [value]="dyname"> <!--property binding-->
+<br><br>
+
+<input type="text"[hidden]="false" name="" id="" bind-value="dyname"><!--property binding-->
